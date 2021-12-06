@@ -12,8 +12,7 @@ function App() {
       {id:3 , title: 'Js', body: 'Description' },
       {id:4 , title: 'Js', body: 'Description' },
   ])
-    
-  return (  
+      return (  
     <div className="App">
        {posts.map(post =>
           <PostItems post={post} key={post.id}/> 
@@ -21,5 +20,8 @@ function App() {
     </div>
   );
 }
+
+
+
 
 export default App;
